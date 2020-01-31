@@ -33,36 +33,35 @@
 		<dc:subject id="subject-2">United States. Declaration of Independence</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1</meta>
-		<meta property="se:subject">History</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">The foundational document of the United States of America, formally declaring its independence.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description">The Declaration of Independence is perhaps the most significant writing in American history. It states, in no uncertain terms, that the nascent country will break from its colonizer.</meta>
+			<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;Thomas Jefferson and his cosigners of the Declaration of Independence laid the groundwork for what would become the United States.&lt;/p&gt;
+			&lt;p&gt;The 56 delegates of the Second Continental Congress adopted the statement on July 4th, 1776.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">1337</meta>
+		<meta property="se:reading-ease.flesch">Easy</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Declaration_of_Independence_of_the_United_States_of_America</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-jefferson_the-declaration-of-independence-of-the-united-states-of-america</meta>
 		<dc:creator id="author">Thomas Jefferson</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Jefferson, Thomas</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Thomas_Jefferson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79089957</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">William Stone</dc:contributor>
+		<meta property="file-as" refines="#artist">Stone, William</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Yuvraj Singh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Singh, Yuvraj</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://librecron.com</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Yuvraj Singh</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Singh, Yuvraj</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://librecron.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
